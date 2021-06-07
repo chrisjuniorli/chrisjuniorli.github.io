@@ -81,11 +81,11 @@ analytics:
 # Site Author
 author:
   name             : "Jiachen Li"
-  avatar           : "profile.png"
+  avatar           : "jiachenl_2048.jpeg"
   bio              : "Phd Candidate in UIUC ECE Department"
   location         : "Champaign, IL"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=mTHic3EAAAAJ&hl=zh-CN"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
@@ -103,7 +103,7 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "https://www.linkedin.com/in/jiachen-li-59a64a15b/"
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
