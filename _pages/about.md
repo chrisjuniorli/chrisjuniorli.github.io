@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: "Jiachen Li"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Jiachen is a second-year PhD candidate in UIUC ECE department, supervised by [Prof.Humphrey Shi](https://www.honghuishi.com/). Before that, he obtained B.S in EE department, Shanghai Jiao Tong University. 
+Jiachen is a currently second-year PhD candidate in UIUC ECE department, supervised by [Prof.Humphrey Shi](https://www.honghuishi.com/). Before that, he obtained B.S in EE department, Shanghai Jiao Tong University. His research areas are mainly on computer vision and machine learning.
 
 News
 ------
