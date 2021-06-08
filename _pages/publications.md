@@ -5,12 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+## Conference Papers
+1. <b>RSCA: Real-time Segmentation-based Context-Aware Scene Text Detection</b> <br>
+   <b> Jiachen Li </b>, Yuan Lin, Rongrong Liu, Chiuman Ho and Humphrey Shi
+   <br> <i> CVPR 2021 MAI Workshop </i> 
+   <br> [[Paper]](https://arxiv.org/abs/2105.12789)
