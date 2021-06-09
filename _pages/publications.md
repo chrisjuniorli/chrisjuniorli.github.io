@@ -4,7 +4,7 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-## Preprint
+## Preprint Papers
 * <b>Escaping the Big Data Paradigm with Compact Transformers </b> <br>
   Ali Hassani, Steven Walton, Nikhil Shah, Abulikemu Abuduweili, <b>Jiachen Li</b>, Humphrey Shi
   <br> [[Paper]](https://arxiv.org/abs/2104.05704)
