@@ -19,6 +19,16 @@ author_profile: true
    <b> Jiachen Li </b>, Bowen Cheng,  Rogerio Feris, Jinjun Xiong, Thomas S.Huang, Wen-Mei Hwu, Humphrey Shi
    <br> <i> CVPR 2021 MAI Workshop </i> 
    <br> [[Paper]](https://arxiv.org/abs/2104.14082)
+
+* <b>Skynet: a hardware-efficient method for object detection and tracking on embedded systems</b> <br>
+   Xiaofan Zhang, Haoming Lu, Cong Hao, <b>Jiachen Li</b>, Bowen Cheng, Yuhong Li, Kyle Rupnow, Jinjun Xiong, Thomas Huang, Honghui Shi, Wen-mei Hwu, Deming Chen
+   <br> <i> MLSys 2020 </i> 
+   <br> [[Paper]](https://arxiv.org/abs/1909.09709)
+
+* <b>Weakly supervised scene parsing with point-based distance metric learning</b> <br>
+   Rui Qian, Yunchao Wei, Honghui Shi, <b>Jiachen Li</b>, Jiaying Liu, Thomas Huang
+   <br> <i> AAAI 2019 </i> 
+   <br> [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/4911)
    
 ## Competition and Challenge
 * <b>3rd </b> Place in CVPR 2021 Video-Instacne-Segmentation Challenge @ PAIR Team
