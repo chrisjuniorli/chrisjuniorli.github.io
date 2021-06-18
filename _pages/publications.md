@@ -32,7 +32,7 @@ author_profile: true
    
 ## Competition and Challenge
 * <b>3rd </b> Place in CVPR 2021 Video-Instacne-Segmentation Challenge @ PAIR Team
-   <br> [[Tech Report]]()
+   <br> [[Tech Report]](https://youtube-vos.org/assets/challenge/2021/reports/VIS_3_Goel.pdf)
    
 * <b>1st </b> Place in DAC-SDC 2019 Low Power Object Detection Challenge @ IBM C3SR Team
    <br> [[Tech Report]](https://arxiv.org/abs/1906.10327)
