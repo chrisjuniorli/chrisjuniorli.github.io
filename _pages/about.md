@@ -12,5 +12,6 @@ Jiachen is a currently second-year Ph.D. candidate in UIUC ECE department, super
 
 News
 ------
+* The technical report for our method on CVPR 2021 VIS chanllenge is [available](https://arxiv.org/abs/2106.10452)
 * We ranked 3rd in [CVPR 2021 Video-Instance-Segmentation Chanllenge](https://youtube-vos.org/challenge/2021/)
 * Two papers accepted by [CVPR 2021 MAI Workshop](https://ai-benchmark.com/workshops/mai/2021/)
