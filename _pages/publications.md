@@ -5,9 +5,13 @@ permalink: /publications/
 author_profile: true
 ---
 ## Preprint Papers
+* <b>ConvMLP: Hierarchical Convolutional MLPs for Vision </b> <br>
+  <b>Jiachen Li</b>, Ali Hassani, Steven Walton, Humphrey Shi
+  <br> [[Paper]](https://arxiv.org/abs/2109.04454) [[Code]](https://github.com/SHI-Labs/Convolutional-MLPs)
+  
 * <b>Escaping the Big Data Paradigm with Compact Transformers </b> <br>
   Ali Hassani, Steven Walton, Nikhil Shah, Abulikemu Abuduweili, <b>Jiachen Li</b>, Humphrey Shi
-  <br> [[Paper]](https://arxiv.org/abs/2104.05704)
+  <br> [[Paper]](https://arxiv.org/abs/2104.05704) [[Code]](https://github.com/SHI-Labs/Compact-Transformers)
 
 ## Conference Papers
 * <b>RSCA: Real-time Segmentation-based Context-Aware Scene Text Detection</b> <br>
@@ -18,7 +22,7 @@ author_profile: true
 * <b>Pseudo-IoU: Improving Label Assignment in Anchor-Free Object Detection</b> <br>
    <b> Jiachen Li </b>, Bowen Cheng,  Rogerio Feris, Jinjun Xiong, Thomas S.Huang, Wen-Mei Hwu, Humphrey Shi
    <br> <i> CVPR 2021 MAI Workshop </i> 
-   <br> [[Paper]](https://arxiv.org/abs/2104.14082)
+   <br> [[Paper]](https://arxiv.org/abs/2104.14082) [[Code]](https://github.com/SHI-Labs/Pseudo-IoU-for-Anchor-Free-Object-Detection)
 
 * <b>Skynet: a hardware-efficient method for object detection and tracking on embedded systems</b> <br>
    Xiaofan Zhang, Haoming Lu, Cong Hao, <b>Jiachen Li</b>, Bowen Cheng, Yuhong Li, Kyle Rupnow, Jinjun Xiong, Thomas Huang, Honghui Shi, Wen-mei Hwu, Deming Chen
