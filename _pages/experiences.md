@@ -13,20 +13,24 @@ author_profile: true
   * B.S. in Electrical and Engineering
 
 ## Internship
+* **Picsart AI Research**, Urbana, IL (Aug, 2021 - Present)
+  * Research Intern
+  * Advisor: Dr. Humphrey Shi
+
 * **Innopeak Technology**, Palo Alto, CA (May, 2021 - Aug, 2021)
   * Research Intern
-  * Advisor: Yuan Lin
+  * Advisor: Dr. Yuan Lin
 
 * **Innopeak Technology**, Palo Alto, CA (May, 2020 - Aug, 2020)
   * Research Intern
-  * Advisor: Chiuman Ho
+  * Advisor: Dr. Chiuman Ho
 
 * **Tencent TEG**, Shenzhen, China (Apr, 2019 - Jun, 2019)
   * SDE Intern
-  * Advisor: Hongkai Chen
+  * Advisor: Dr. Hongkai Chen
 
 ## Services
 * **Reviewer**:
-  * Conference: MM2021, CVPR2021, ECCV2020, etc
+  * Conference: CVPR2022, AAAI2022, MM2021, CVPR2021, ECCV2020, etc
   * Journal: CSVT, etc
 
