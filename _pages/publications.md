@@ -9,6 +9,10 @@ author_profile: true
   <b>Jiachen Li</b>, Ali Hassani, Steven Walton, Humphrey Shi
   <br> [[Paper]](https://arxiv.org/abs/2109.04454) [[Code]](https://github.com/SHI-Labs/Convolutional-MLPs)
   
+* <b>SeMask: Semantically Masked Transformers for Semantic Segmentation </b> <br>
+  Jitesh Jain, Anukriti Singh, Nikita Orlov, Zilong Huang, <b>Jiachen Li</b>, Steven Walton, Humphrey Shi
+  <br> [[Paper]](https://arxiv.org/abs/2112.12782) [[Code]](https://github.com/Picsart-AI-Research/SeMask-Segmentation)
+ 
 * <b>Escaping the Big Data Paradigm with Compact Transformers </b> <br>
   Ali Hassani, Steven Walton, Nikhil Shah, Abulikemu Abuduweili, <b>Jiachen Li</b>, Humphrey Shi
   <br> [[Paper]](https://arxiv.org/abs/2104.05704) [[Code]](https://github.com/SHI-Labs/Compact-Transformers)
