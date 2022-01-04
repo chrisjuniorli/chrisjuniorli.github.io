@@ -31,6 +31,6 @@ author_profile: true
 
 ## Services
 * **Reviewer**:
-  * Conference: CVPR2022, AAAI2022, MM2021, CVPR2021, ECCV2020, etc
-  * Journal: CSVT, etc
+  * Conference: CVPR, ECCV, ICLR, AAAI, MM, etc
+  * Journal: TCSVT, etc
 
