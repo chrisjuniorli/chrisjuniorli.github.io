@@ -8,7 +8,11 @@ author_profile: true
 * <b>ConvMLP: Hierarchical Convolutional MLPs for Vision </b> <br>
   <b>Jiachen Li</b>, Ali Hassani, Steven Walton, Humphrey Shi
   <br> [[Paper]](https://arxiv.org/abs/2109.04454) [[Code]](https://github.com/SHI-Labs/Convolutional-MLPs)
-  
+
+* <b>Neighborhood Attention Transformer </b> <br>
+  Ali Hassani, Steven Walton, <b>Jiachen Li</b>, Shen Li, Humphrey Shi
+  <br> [[Paper]](https://arxiv.org/abs/2204.07143) [[Code]](https://github.com/SHI-Labs/Neighborhood-Attention-Transformer)
+ 
 * <b>SeMask: Semantically Masked Transformers for Semantic Segmentation </b> <br>
   Jitesh Jain, Anukriti Singh, Nikita Orlov, Zilong Huang, <b>Jiachen Li</b>, Steven Walton, Humphrey Shi
   <br> [[Paper]](https://arxiv.org/abs/2112.12782) [[Code]](https://github.com/Picsart-AI-Research/SeMask-Segmentation)
