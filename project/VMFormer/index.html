@@ -54,7 +54,7 @@
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>SHI Lab @ University of Oregon \& UIUC,</span>
+            <span class="author-block"><sup>1</sup>SHI Lab @ University of Oregon &amp UIUC,</span>
             <span class="author-block"><sup>2</sup>Beijing Jiaotong University</span>
             <span class="author-block"><sup>3</sup>Picsart AI Research (PAIR)</span>
           </div>
@@ -107,72 +107,11 @@
                 type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
+        VMFormer
       </h2>
     </div>
   </div>
 </section>
-
-
-<section class="hero is-light is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-steve">
-          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="https://homes.cs.washington.edu/~kpar/nerfies/videos/steve.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-chair-tp">
-          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
-            <source src="https://homes.cs.washington.edu/~kpar/nerfies/videos/chair-tp.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-shiba">
-          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
-            <source src="https://homes.cs.washington.edu/~kpar/nerfies/videos/shiba.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-fullbody">
-          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
-            <source src="https://homes.cs.washington.edu/~kpar/nerfies/videos/fullbody.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-blueshirt">
-          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
-            <source src="https://homes.cs.washington.edu/~kpar/nerfies/videos/blueshirt.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-mask">
-          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
-            <source src="https://homes.cs.washington.edu/~kpar/nerfies/videos/mask.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-coffee">
-          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
-            <source src="https://homes.cs.washington.edu/~kpar/nerfies/videos/coffee.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-toby">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="https://homes.cs.washington.edu/~kpar/nerfies/videos/toby2.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 
 <section class="section">
   <div class="container is-max-desktop">
@@ -182,31 +121,20 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
-          </p>
-          <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
-          </p>
-          <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
+            Video matting, which is to estimate alpha mattes for each frame of input video sequences. 
+            Solutions to video matting have been dominated by deep convolutional neural networks for 
+            the past few years, which has become the <i>de-facto</i> standard for both academia and 
+            industry. However, they still suffer from the inductive bias of CNN on local perception 
+            and the lack of long-range temporal modeling. In this paper, we propose <b>VMFormer</b>: 
+            a transformer-based end-to-end method that makes predictions on alpha mattes of each corresponding 
+            frame from learnable queries given a video input sequence. It leverages self-attention in the 
+            transformer encoder to build global integration of feature sequences and queries to learn global 
+            representations through cross-attention in the transformer decoder. We further apply long-range 
+            temporal modeling to all queries along with short-range temporal modeling on feature maps. 
+            Each query predicts alpha matte based on feature maps of each frame in the prediction stage. 
+            Experiments show that VMFormer outperforms previous CNN-based video matting methods and sets a new state-of-the-art. 
+            To our best knowledge, it is the first end-to-end video matting solution built upon a vision transformer 
+            with predictions on learnable queries.
           </p>
         </div>
       </div>
