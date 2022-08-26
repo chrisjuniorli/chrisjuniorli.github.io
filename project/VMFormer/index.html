@@ -108,12 +108,7 @@
       </div>
     </div>
     <h2 class="subtitle has-text-centered">
-      VMFormer has two branches for feature modeling and query modeling. 
-      Feature modeling branch takes video clips as input and extract feature sequences through 
-      the backbone and the transformer encoder. Query modeling branch learn global representation 
-      of feature sequences through the transformer decoder. Temporal modeling are applied to each branch 
-      individually to improve temporal consistency of predictions. Finally, VMFormer makes predictions of 
-      alpha mattes with queries and feature maps.
+      An overview of the VMFormer
     </h2>
   </div>
 </section>
@@ -128,10 +123,10 @@
           <p>
             Video matting aims to predict the alpha mattes for each frame from a given input video sequence. 
             Recent solutions to video matting have been dominated by deep convolutional neural networks (CNN) 
-            for the past few years, which has become the \textit{de-facto} standard for both academia and industry.
+            for the past few years, which has become the de-facto standard for both academia and industry.
             However, they have inbuilt inductive bias of locality and do not capture global characteristics of an image 
             due to the CNN-based architectures. They also lack long range temporal modeling considering computational costs 
-            when dealing with feature maps of multiple frames. In this paper, we propose <b>VMFormer<\b>: a transformer-based 
+            when dealing with feature maps of multiple frames. In this paper, we propose <b>VMFormer</b>: a transformer-based 
             end-to-end method for video matting. It makes predictions on alpha mattes of each frame from learnable queries given 
             a video input sequence. Specifically, it leverages self-attention layers to build global integration of feature sequences
             with short-range temporal modeling on successive frames. We further apply queries to learn global representations 
