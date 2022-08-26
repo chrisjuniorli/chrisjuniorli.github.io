@@ -108,7 +108,12 @@
       </div>
     </div>
     <h2 class="subtitle has-text-centered">
-      VMFormer has two branches for feature modeling and query modeling.
+      VMFormer has two branches for feature modeling and query modeling. 
+      Feature modeling branch takes video clips as input and extract feature sequences through 
+      the backbone and the transformer encoder. Query modeling branch learn global representation 
+      of feature sequences through the transformer decoder. Temporal modeling are applied to each branch 
+      individually to improve temporal consistency of predictions. Finally, VMFormer makes predictions of 
+      alpha mattes with queries and feature maps.
     </h2>
   </div>
 </section>
