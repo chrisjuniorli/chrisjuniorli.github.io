@@ -12,6 +12,7 @@ Jiachen is a currently third-year Ph.D. candidate in UIUC ECE department, superv
 
 News
 ------
+* Check out our new work [VMFormer](https://arxiv.org/abs/2208.12801), the first vision transformer based method for end-to-end video matting. [Project page]( https://chrisjuniorli.github.io/project/VMFormer/) and [codes](https://github.com/SHI-Labs/VMFormer) are released. 
 * Check out our new vision transformer backbone work [NAT](https://arxiv.org/abs/2204.07143) and the [codes](https://github.com/SHI-Labs/Neighborhood-Attention-Transformer) are released.
 * Check out our work on segmentation with semantically masked transformers [SeMask](https://arxiv.org/abs/2112.12782) and the [codes](https://github.com/Picsart-AI-Research/SeMask-Segmentation) are released.
 * Check out our new MLP-based backbone work [ConvMLP](https://arxiv.org/abs/2109.04454) and the [codes](https://github.com/SHI-Labs/Convolutional-MLPs) are released.
