@@ -5,6 +5,10 @@ permalink: /publications/
 author_profile: true
 ---
 ## Preprint Papers
+* <b>VMFormer: End-to-End Video Matting with Transformer</b> <br>
+  <b>Jiachen Li</b>, Vidit Goel, Marianna Ohanyan, Shant Navasardyan, Yunchao Wei, Humphrey Shi
+  <br> [[Paper]](https://arxiv.org/abs/2208.12801) [[Project]](https://chrisjuniorli.github.io/project/VMFormer) [[Code]](https://github.com/SHI-Labs/VMFormer)
+
 * <b>ConvMLP: Hierarchical Convolutional MLPs for Vision </b> <br>
   <b>Jiachen Li</b>, Ali Hassani, Steven Walton, Humphrey Shi
   <br> [[Paper]](https://arxiv.org/abs/2109.04454) [[Code]](https://github.com/SHI-Labs/Convolutional-MLPs)
