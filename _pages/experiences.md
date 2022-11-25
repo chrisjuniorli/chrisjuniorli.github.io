@@ -31,6 +31,6 @@ author_profile: true
 
 ## Services
 * **Reviewer**:
-  * Conference: CVPR, ECCV, ICLR, AAAI, MM, etc
-  * Journal: TCSVT, etc
+  * Conference: CVPR, ECCV, ICLR, AAAI, WACV, MM, etc
+  * Journal: TPAMI, TCSVT, etc
 
