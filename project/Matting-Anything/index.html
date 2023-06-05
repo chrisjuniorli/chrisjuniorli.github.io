@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Matting Anything">
+  <meta name="keywords" content="Image Matting">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Matting Anything</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">VMFormer: End-to-End Video Matting with Transformer</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://chrisjuniorli.github.io/">Jiachen Li</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://praeclarumjj3.github.io/">Jitesh Jain</a><sup>1,2</sup>,</span>
+            <span class="author-block">
+              <a href="https://www.humphreyshi.com/">Humphrey Shi</a><sup>1,3</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>SHI Lab @ University of Oregon &amp UIUC,</span>
+            <span class="author-block"><sup>2</sup>IIT Roorkee</span>
+            <span class="author-block"><sup>3</sup>Picsart AI Research (PAIR)</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2208.12801"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2208.12801"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/SHI-Labs/MAM"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column has-text-centered">
+        <img src="static/images/teaser_arxiv.png" width="90%">
+      </div>
+    </div>
+    <h2 class="subtitle has-text-centered">
+      Matting Anything Model
+    </h2>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            In this paper, we propose the Matting Anything Model (MAM), an efficient and versatile framework 
+            for estimating the alpha matte of any instance in an image with user prompt guidance. 
+            MAM offers several significant advantages over previous specialized image matting networks: 
+            (i) MAM is capable of dealing with various types of image matting, including semantic, instance, 
+            and referring image matting with only a single model; (ii) MAM leverages the feature maps from the 
+            Segment Anything Model (SAM) and adopts a lightweight Mask-to-Matte (M2M)
+            module to predict the alpha matte through iterative refinement, which has only 2.7 million 
+            trainable parameters. (iii) By incorporating SAM, MAM simplifies the user intervention required 
+            for the interactive use of image matting from the trimap to the box, point, or text prompt. 
+            We evaluate the performance of MAM on various image matting benchmarks, and the experimental 
+            results demonstrate that MAM achieves comparable performance to the state-of-the-art specialized 
+            image matting models under different metrics on each benchmark. Overall, MAM shows superior 
+            generalization ability and can effectively handle various image matting tasks with fewer parameters, 
+            making it a practical solution for unified image matting.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <!-- Interpolating. -->
+        <h3 class="title is-4">Matting Anything Model Architecture</h3>
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <img src="static/images/archi_arxiv.png" width="90%">
+          </div>
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            The MAM architecture consists of a pre-trained SAM and an M2M module. 
+            Given an input image I, SAM generates the mask prediction for the target instance 
+            based on the box or point user prompt. The M2M module takes the concatenated inputs, 
+            including the image, mask, and feature maps, and produces multi-scale predictions &alpha;<sub>os8</sub>, 
+            &alpha;<sub>os4</sub>, and &alpha;<sub>os1</sub>. The iterative refinement process, detailed in 
+            Section Method, progressively improves the precision of the final meticulous 
+            alpha matte &alpha;, incorporating information from the multi-scale outputs.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <!-- Interpolating. -->
+        <h3 class="title is-4">Visualization</h3>
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <img src="static/images/vis.png" width="90%">
+          </div>
+        </div>
+        <div class="columns is-centered">
+          Visualization of predictions of SAM and MAM. Differences are highlighted in the red boxes. Please zoom in for details comparisons.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            Web template is from  <a
+              href="https://github.com/nerfies/nerfies.github.io">nerfies</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
