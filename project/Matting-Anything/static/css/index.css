@@ -155,3 +155,24 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+.bgImg {
+  width: 500px;
+  height: 500px;
+  background: url(https://picsum.photos/id/15/500/500) center/cover;
+  position:relative;
+}
+.bgImg:before {
+  content:"";
+  position:absolute;
+  top:0;
+  left:100%;
+  right:0;
+  bottom:0;
+  background: url(https://picsum.photos/id/10/500/500) right/auto 100% no-repeat;
+  transition: 2s linear;
+}
+
+.bgImg:hover:before {
+  left:0;
+}
