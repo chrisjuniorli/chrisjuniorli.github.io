@@ -13,7 +13,7 @@ author_profile: true
   * B.S. in Electrical and Engineering
 
 ## Internship
-* **Picsart AI Research**, Urbana, IL (Aug, 2021 - Present)
+* **Picsart AI Research**, Champaign, IL (Aug, 2021 - Dec, 2022)
   * Research Intern
   * Advisor: Dr. Humphrey Shi
 
@@ -31,6 +31,6 @@ author_profile: true
 
 ## Services
 * **Reviewer**:
-  * Conference: CVPR, ECCV, ICLR, AAAI, WACV, MM, etc
+  * Conference: CVPR, ECCV, ICCV, NeurIPS, ICLR, AAAI, WACV, MM, etc
   * Journal: TPAMI, TCSVT, etc
 
