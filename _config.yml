@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jiachen Li / PhD Candidate"
+title                    : "Jiachen Li / PhD ABD"
 title_separator          : "-"
 name                     : &name "Jiachen Li"
-description              : &description "PhD Candidate in UIUC ECE Department"
+description              : &description "PhD ABD in UIUC ECE Department"
 url                      : https://chrisjuniorli.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "chrisjuniorli.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Jiachen Li"
   avatar           : "jiachenl_headshot_512_png.png"
-  bio              : "Phd Candidate in UIUC ECE Department"
+  bio              : "Phd ABD in UIUC ECE Department"
   location         : "Champaign, IL"
   employer         :
   pubmed           : 
