@@ -12,7 +12,6 @@ Jiachen is a currently fourth-year Ph.D. ABD in UIUC ECE department, supervised 
 
 News
 ------
-* Check out our new work [Matting Anything](https://chrisjuniorli.github.io/project/Matting-Anything/) and try the [demo](https://huggingface.co/spaces/shi-labs/Matting-Anything) on the HuggingFace.
 * Two papers accepted by CVPRW 2023
 * Two papers accepted by CVPR 2023
 * Check out our new work [VMFormer](https://arxiv.org/abs/2208.12801), [project page]( https://chrisjuniorli.github.io/project/VMFormer/) and [codes](https://github.com/SHI-Labs/VMFormer) are released. 
