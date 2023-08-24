@@ -38,3 +38,31 @@ author_profile: true
    <b> Jiachen Li </b>, Bowen Cheng,  Rogerio Feris, Jinjun Xiong, Thomas S.Huang, Wen-Mei Hwu, Humphrey Shi
    <br> <i> CVPRW 2021 </i> 
    <br> [[Paper]](https://arxiv.org/abs/2104.14082) [[Code]](https://github.com/SHI-Labs/Pseudo-IoU-for-Anchor-Free-Object-Detection)
+
+* <b>RSCA: Real-time Segmentation-based Context-Aware Scene Text Detection</b> <br>
+   <b> Jiachen Li </b>, Yuan Lin, Rongrong Liu, Chiuman Ho and Humphrey Shi
+   <br> <i> CVPRW 2021 </i>
+   <br> [[Paper]](https://openaccess.thecvf.com/content/CVPR2021W/MAI/papers/Li_RSCA_Real-Time_Segmentation-Based_Context-Aware_Scene_Text_Detection_CVPRW_2021_paper.pdf)
+
+* <b>Skynet: a hardware-efficient method for object detection and tracking on embedded systems</b> <br>
+   Xiaofan Zhang, Haoming Lu, Cong Hao, <b>Jiachen Li</b>, Bowen Cheng, Yuhong Li, Kyle Rupnow, Jinjun Xiong, Thomas Huang, Honghui Shi, Wen-mei Hwu, Deming Chen
+   <br> <i> MLSys 2020 </i> 
+   <br> [[Paper]](https://arxiv.org/abs/1909.09709)
+  
+* <b>Weakly supervised scene parsing with point-based distance metric learning</b> <br>
+   Rui Qian, Yunchao Wei, Honghui Shi, <b>Jiachen Li</b>, Jiaying Liu, Thomas Huang
+   <br> <i> AAAI 2019 </i> 
+   <br> [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/4911)
+
+## Competitions
+* <b>3rd </b> Place in CVPR 2021 Video-Instacne-Segmentation Challenge @ PAIR Team
+   <br> [[Tech Report]](https://youtube-vos.org/assets/challenge/2021/reports/VIS_3_Goel.pdf)
+   
+* <b>1st </b> Place in DAC-SDC 2019 Low Power Object Detection Challenge @ IBM C3SR Team
+   <br> [[Tech Report]](https://arxiv.org/abs/1906.10327)
+   
+* <b> 1st </b> Place in all tasks of ICDAR 2019 RRC on Multi-lingual Scene Text Detection and Recognition @ Tencent-DPPR Team
+   <br> [[Tech Report]]()
+  
+* <b> 1st </b> Place in all tasks of ICDAR 2019 RRC on Large-scale Street View Text with Partial Labeling @ Tencent-DPPR Team
+   <br> [[Tech Report]](https://mp.weixin.qq.com/s/qcp7-QSB0CSZQj9jDDUKMw)
