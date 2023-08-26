@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Jiachen is a last-year Ph.D. student in the UIUC ECE department, supervised by [Prof.Humphrey Shi](https://www.honghuishi.com/). Before that, he obtained his B.S. from the EE department at Shanghai Jiao Tong University. His research areas are mainly on computer vision and machine learning. 
+Jiachen is a final-year Ph.D. student in the UIUC ECE department, supervised by [Prof.Humphrey Shi](https://www.honghuishi.com/). Before that, he obtained his B.S. from the EE department at Shanghai Jiao Tong University. His research areas are mainly on computer vision and machine learning. 
 
 News
 ------
