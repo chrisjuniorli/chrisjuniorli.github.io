@@ -8,12 +8,18 @@ author_profile: true
 * <b>Matting Anything</b> <br>
   <b>Jiachen Li</b>, Jitesh Jain, Humphrey Shi
   <br> [[Paper]](https://arxiv.org/pdf/2306.05399) [[Demo]](https://huggingface.co/spaces/shi-labs/Matting-Anything) [[Code]](https://github.com/SHI-Labs/Matting-Anything)
+
+ 
+## Conference Papers
+* <b>Video Instance Matting</b> <br>
+  <b>Jiachen Li</b>, Roberto Henschel, Vidit Goel, Marianna Ohanyan, Shant Navasardyan, Humphrey Shi
+  <br> <i> WACV 2024 </i>
   
 * <b>VMFormer: End-to-End Video Matting with Transformer</b> <br>
   <b>Jiachen Li</b>, Vidit Goel, Marianna Ohanyan, Shant Navasardyan, Yunchao Wei, Humphrey Shi
+  <br> <i> WACV 2024 </i>
   <br> [[Paper]](https://arxiv.org/abs/2208.12801) [[Project]](https://chrisjuniorli.github.io/project/VMFormer) [[Code]](https://github.com/SHI-Labs/VMFormer)
- 
-## Conference Papers
+  
 * <b>Neighborhood Attention Transformer </b> <br>
   Ali Hassani, Steven Walton, <b>Jiachen Li</b>, Shen Li, Humphrey Shi
   <br> <i> CVPR 2023 </i> 
