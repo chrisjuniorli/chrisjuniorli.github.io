@@ -12,6 +12,7 @@ Jiachen is a final-year Ph.D. student in the UIUC ECE department, supervised by 
 
 News
 ------
+* \[2023.10\] Two papers are accepted by WACV 2024
 * \[2023.06\] Our new work [Matting Anything](https://arxiv.org/pdf/2306.05399) is released as a unified image matting solution with user prompts as guidance.
 * \[2023.05\] [VideoMatt](https://openaccess.thecvf.com/content/CVPR2023W/MobileAI/papers/Li_VideoMatt_A_Simple_Baseline_for_Accessible_Real-Time_Video_Matting_CVPRW_2023_paper.pdf) and [ConvMLP](https://openaccess.thecvf.com/content/CVPR2023W/WFM/papers/Li_ConvMLP_Hierarchical_Convolutional_MLPs_for_Vision_CVPRW_2023_paper.pdf) accepted by CVPRW 2023
 * \[2023.04\] Passed Prelim Exam and entered into the PhD All-But-Dissertation stage.
