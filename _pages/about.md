@@ -8,10 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-Jiachen is a final-year Ph.D. student in the UIUC ECE department, supervised by [Prof.Humphrey Shi](https://www.honghuishi.com/). Before that, he obtained his B.S. from the EE department at Shanghai Jiao Tong University. His research areas are mainly on computer vision and machine learning. 
+Jiachen is a fifth-year Ph.D. student in the UIUC ECE department, supervised by [Prof.Humphrey Shi](https://www.honghuishi.com/). Before that, he obtained his B.S. from the EE department at Shanghai Jiao Tong University. His research areas are mainly on computer vision and machine learning. 
 
 News
 ------
+* \[2023.11\] [VIM](https://arxiv.org/abs/2311.04212) and [codes](https://github.com/SHI-Labs/VIM) are released
 * \[2023.10\] Two papers are accepted by WACV 2024
 * \[2023.06\] Our new work [Matting Anything](https://arxiv.org/pdf/2306.05399) is released as a unified image matting solution with user prompts as guidance.
 * \[2023.05\] [VideoMatt](https://openaccess.thecvf.com/content/CVPR2023W/MobileAI/papers/Li_VideoMatt_A_Simple_Baseline_for_Accessible_Real-Time_Video_Matting_CVPRW_2023_paper.pdf) and [ConvMLP](https://openaccess.thecvf.com/content/CVPR2023W/WFM/papers/Li_ConvMLP_Hierarchical_Convolutional_MLPs_for_Vision_CVPRW_2023_paper.pdf) accepted by CVPRW 2023
