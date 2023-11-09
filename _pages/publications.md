@@ -14,7 +14,8 @@ author_profile: true
 * <b>Video Instance Matting</b> <br>
   <b>Jiachen Li</b>, Roberto Henschel, Vidit Goel, Marianna Ohanyan, Shant Navasardyan, Humphrey Shi
   <br> <i> WACV 2024 </i>
-  
+  <br> [[Paper]](https://arxiv.org/pdf/2311.04212.pdf) [[Code]](https://github.com/SHI-Labs/VIM)
+
 * <b>VMFormer: End-to-End Video Matting with Transformer</b> <br>
   <b>Jiachen Li</b>, Vidit Goel, Marianna Ohanyan, Shant Navasardyan, Yunchao Wei, Humphrey Shi
   <br> <i> WACV 2024 </i>
