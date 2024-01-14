@@ -15,17 +15,21 @@ author_profile: true
   * B.S. in Electrical and Engineering
 
 ## Internship
+* **ByteDance**, San Jose, CA (2024.01 - 2024.05)
+  * Research Intern
+  * Host: Xinyao Wang
+   
 * **Picsart AI Research**, Champaign, IL (2021.08 - 2022.12)
   * Research Intern
-  * Advisor: Dr. Humphrey Shi
+  * Host: Humphrey Shi
 
 * **Innopeak Technology**, Palo Alto, CA (2020.05 - 2021.08)
   * Research Intern
-  * Advisor: Dr. Yuan Lin
+  * Host: Yuan Lin
 
-* **Tencent TEG**, Shenzhen, China (2019.04 - 2019.06)
-  * SDE Intern
-  * Advisor: Dr. Hongkai Chen
+* **Tencent**, Shenzhen, China (2019.04 - 2019.06)
+  * Research Intern
+  * Host: Hongkai Chen
 
 ## Service
 * **Reviewer**:
