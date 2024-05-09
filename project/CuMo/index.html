@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="CuMo: Scaling Multimodal LLM with Co-Upcycled Mixture-of-Experts">
+  <meta name="keywords" content="Multimodal LLM">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CuMo: Scaling Multimodal LLM with Co-Upcycled Mixture-of-Experts</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">CuMo: Scaling Multimodal LLM with Co-Upcycled Mixture-of-Experts</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://chrisjuniorli.github.io/">Jiachen Li</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="">Xinyao Wang</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a href="https://jeff-zilence.github.io/">Sijie Zhu</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a href="https://sites.google.com/view/chiawen-kuo/home">Chia-Wen Kuo</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a href="">Lu Xu</a><sup>2</sup>,</span>  
+            <span class="author-block">
+              <a href="">Fan Chen</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a href="https://praeclarumjj3.github.io/">Jitesh Jain</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://www.humphreyshi.com/">Humphrey Shi</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="http://www.cbsr.ia.ac.cn/users/lywen/">Longyin Wen</a><sup>2</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>SHI Labs @ Georgia Tech  &amp UIUC,</span>
+            <span class="author-block"><sup>2</sup>ByteDance</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/SHI-Labs/CuMo"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Demo Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Demo</span>
+                  </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column has-text-centered">
+        <img src="static/images/teaser.png" width="60%">
+      </div>
+    </div>
+    <h2 class="subtitle has-text-centered">
+      Comparisons of CuMo Mistral-7B with other state-of-the-art multimodal 7B LLMs
+    </h2>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Recent advancements in Multimodal Large Language Models (LLMs) have focused primarily 
+            on scaling by increasing text-image pair data and enhancing LLMs to improve performance on 
+            multimodal tasks. However, these scaling approaches are computationally expensive and overlook 
+            the significance of improving model capabilities from the vision side. 
+            Inspired by the successful applications of Mixture-of-Experts (MoE) in LLMs, which improves 
+            model scalability during training while keeping inference costs similar to those of smaller 
+            models, we propose CuMo, which incorporates Co-upcycled Top-K sparsely-gated Mixture-of-experts 
+            blocks into both the vision encoder and the MLP connector, thereby enhancing the multimodal LLMs 
+            with neglectable additional activated parameters during inference.
+            CuMo first pre-trains the MLP blocks and then initializes each expert in the MoE block from 
+            the pre-trained MLP block during the visual instruction tuning stage, with auxiliary losses 
+            to ensure balanced loading of experts.
+            CuMo outperforms state-of-the-art multimodal LLMs across various VQA and 
+            visual-instruction-following benchmarks within each model size group under training 
+            exclusively on open-sourced datasets.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <!-- Interpolating. -->
+        <h3 class="title is-4">CuMo Architecture</h3>
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <img src="static/images/archi.png" width="100%">
+          </div>
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            CuMo incorporates sparse Top-K MoE blocks into the CLIP vision encoder and vision-language MLP connector, thereby improving the multimodal LLM capabilities
+            from the vision side. Skip connections are omitted for simplicity. Further implementation details 
+            are provided in Section 3.2.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <!-- Interpolating. -->
+        <h3 class="title is-4">Training Stages</h3>
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <img src="static/images/stage.png" width="90%">
+          </div>
+        </div>
+        <div class="content has-text-justified">
+          <p>
+          Training Stages of CuMo models. The first stage involves pre-training the MLP for better alignment. 
+          Subsequently, the pre-finetuning stage trains all parameters as a warm-up before the next stage. 
+          Finally, the MLP experts within each MoE block are initialized from the weights of the corresponding MLP block, 
+          followed by training all parameters in the visual instruction tuning stage
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <!-- Interpolating. -->
+        <h3 class="title is-4">Examples</h3>
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <img src="static/images/demo.png" width="90%">
+          </div>
+        </div>
+        <div class="content has-text-justified">
+        <p>
+          Dialogues between the user and multimodal LLMs on challenging images. 
+          We highlight the correct answers and hallucinations from the responses of the multimodal LLMs.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            Web template is from  <a
+              href="https://github.com/nerfies/nerfies.github.io">nerfies</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
