@@ -5,12 +5,17 @@ permalink: /publications/
 author_profile: true
 ---
 ## Preprint Papers 
-* <b>Matting Anything</b> <br>
-  <b>Jiachen Li</b>, Jitesh Jain, Humphrey Shi
-  <br> [[Paper]](https://arxiv.org/pdf/2306.05399) [[Demo]](https://huggingface.co/spaces/shi-labs/Matting-Anything) [[Code]](https://github.com/SHI-Labs/Matting-Anything)
+* <b>CuMo: Scaling Multimodal LLM with Co-Upcycled Mixture-of-Experts</b> <br>
+  <b>Jiachen Li</b>, Xinyao Wang, Sijie Zhu, Chia-wen Kuo, Lu Xu, Fan Chen, Jitesh Jain, Humphrey Shi, Longyin Wen
+  <br> [[Paper]](https://arxiv.org/abs/2405.05949) [[Project Page]](https://chrisjuniorli.github.io/project/CuMo/) [[Code]](https://github.com/SHI-Labs/CuMo)
 
  
 ## Conference Papers
+* <b>Matting Anything</b> <br>
+  <b>Jiachen Li</b>, Jitesh Jain, Humphrey Shi
+  <br> <i> CVPRW 2024 </i>
+  <br> [[Paper]](https://arxiv.org/pdf/2306.05399) [[Demo]](https://huggingface.co/spaces/shi-labs/Matting-Anything) [[Code]](https://github.com/SHI-Labs/Matting-Anything)
+
 * <b>Video Instance Matting</b> <br>
   <b>Jiachen Li</b>, Roberto Henschel, Vidit Goel, Marianna Ohanyan, Shant Navasardyan, Humphrey Shi
   <br> <i> WACV 2024 </i>

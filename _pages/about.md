@@ -12,6 +12,7 @@ Jiachen is a fifth-year Ph.D. student in the UIUC ECE department, supervised by 
 
 News
 ------
+* \[2024.05\] [CuMo](https://arxiv.org/abs/2405.05949) is released with [codes](https://github.com/SHI-Labs/CuMo) and [models](https://huggingface.co/shi-labs/CuMo-mistral-7b).
 * \[2023.11\] [VIM](https://arxiv.org/abs/2311.04212) and [codes](https://github.com/SHI-Labs/VIM) are released
 * \[2023.10\] Two papers accepted by WACV 2024
 * \[2023.06\] Our new work [Matting Anything](https://arxiv.org/pdf/2306.05399) is released as a unified image matting solution with user prompts as guidance.
