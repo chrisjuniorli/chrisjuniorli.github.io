@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jiachen Li / PhD ABD"
+title                    : "Jiachen Li"
 title_separator          : "-"
 name                     : &name "Jiachen Li"
 description              : &description "Earned Not Given"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Jiachen Li"
   avatar           : "jiachenl_headshot_512_png.png"
-  bio              : "PhD ABD in UIUC ECE Department"
-  location         : "Champaign, IL"
+  bio              : "Research Engineer"
+  location         : "San Jose, CA"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=mTHic3EAAAAJ"
