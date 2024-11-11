@@ -7,14 +7,23 @@ author_profile: true
 
 ---
 ## Education
-* **University of Illinois at Urbana-Champaign**, Urbana, IL (2019.09 - Present)
+* **University of Illinois at Urbana-Champaign**, Urbana, IL (2019.09 - 2024.10)
   * Ph.D. in Electrical and Computer Engineering
   * Advisor: Prof. Humphrey Shi
 
 * **Shanghai Jiao Tong University**, Shanghai, China (2015.09 - 2019.06)
   * B.S. in Electrical and Engineering
 
-## Internship
+## Industry
+
+* **Apple**, Cupertino, CA (2024.11 - Present)
+  * Research Engineer
+  * Host: Vinay Sharma
+    
+* **Apple**, Cupertino, CA (2024.05 - 2024.08)
+  * Research Intern
+  * Host: Michail Iliadis
+    
 * **ByteDance**, San Jose, CA (2024.01 - 2024.05)
   * Research Intern
   * Host: Xinyao Wang
