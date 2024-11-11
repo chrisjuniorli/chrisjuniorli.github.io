@@ -4,13 +4,13 @@ title: "Selected Publications"
 permalink: /publications/
 author_profile: true
 ---
-## Preprint Papers 
+
+## Selected Publications
 * <b>CuMo: Scaling Multimodal LLM with Co-Upcycled Mixture-of-Experts</b> <br>
   <b>Jiachen Li</b>, Xinyao Wang, Sijie Zhu, Chia-wen Kuo, Lu Xu, Fan Chen, Jitesh Jain, Humphrey Shi, Longyin Wen
+  <br> <i> NeurIPS 2024 </i>
   <br> [[Paper]](https://arxiv.org/abs/2405.05949) [[Project Page]](https://chrisjuniorli.github.io/project/CuMo/) [[Code]](https://github.com/SHI-Labs/CuMo)
-
- 
-## Conference Papers
+  
 * <b>Matting Anything</b> <br>
   <b>Jiachen Li</b>, Jitesh Jain, Humphrey Shi
   <br> <i> CVPRW 2024 </i>
@@ -55,16 +55,6 @@ author_profile: true
    <b> Jiachen Li </b>, Yuan Lin, Rongrong Liu, Chiuman Ho and Humphrey Shi
    <br> <i> CVPRW 2021 </i>
    <br> [[Paper]](https://openaccess.thecvf.com/content/CVPR2021W/MAI/papers/Li_RSCA_Real-Time_Segmentation-Based_Context-Aware_Scene_Text_Detection_CVPRW_2021_paper.pdf)
-
-* <b>Skynet: a hardware-efficient method for object detection and tracking on embedded systems</b> <br>
-   Xiaofan Zhang, Haoming Lu, Cong Hao, <b>Jiachen Li</b>, Bowen Cheng, Yuhong Li, Kyle Rupnow, Jinjun Xiong, Thomas Huang, Honghui Shi, Wen-mei Hwu, Deming Chen
-   <br> <i> MLSys 2020 </i> 
-   <br> [[Paper]](https://arxiv.org/abs/1909.09709)
-  
-* <b>Weakly supervised scene parsing with point-based distance metric learning</b> <br>
-   Rui Qian, Yunchao Wei, Honghui Shi, <b>Jiachen Li</b>, Jiaying Liu, Thomas Huang
-   <br> <i> AAAI 2019 </i> 
-   <br> [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/4911)
 
 ## Competitions
 * <b>3rd </b> Place in CVPR 2021 Video-Instacne-Segmentation Challenge @ PAIR Team
