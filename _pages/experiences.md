@@ -30,7 +30,7 @@ author_profile: true
    
 * **Picsart AI Research**, Champaign, IL (2021.08 - 2022.12)
   * Research Intern
-  * Host: Humphrey Shi
+  * Host: Prof. Humphrey Shi
 
 * **Innopeak Technology**, Palo Alto, CA (2020.05 - 2021.08)
   * Research Intern
