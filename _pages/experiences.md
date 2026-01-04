@@ -18,27 +18,27 @@ author_profile: true
 
 * **Apple**, Cupertino, CA (2024.11 - Present)
   * Research Engineer
-  * Host: Vinay Sharma
+  * Manager: Kevin Bailly
     
 * **Apple**, Cupertino, CA (2024.05 - 2024.08)
   * Research Intern
-  * Host: Michail Iliadis
+  * Mentor: Michail Iliadis
     
 * **ByteDance**, San Jose, CA (2024.01 - 2024.05)
   * Research Intern
-  * Host: Xinyao Wang
+  * Mentor: Xinyao Wang
    
 * **Picsart AI Research**, Champaign, IL (2021.08 - 2022.12)
   * Research Intern
-  * Host: Prof. Humphrey Shi
+  * Mentor: Prof. Humphrey Shi
 
 * **Innopeak Technology**, Palo Alto, CA (2020.05 - 2021.08)
   * Research Intern
-  * Host: Yuan Lin
+  * Mentor: Yuan Lin
 
 * **Tencent**, Shenzhen, China (2019.04 - 2019.06)
   * Research Intern
-  * Host: Hongkai Chen
+  * Mentor: Hongkai Chen
 
 ## Service
 * **Reviewer**:

@@ -14,7 +14,7 @@ Jiachen is a Research Engineer at Apple. He earned his Ph.D. from the University
 
 News
 ------
-* \[2024.09\] [CuMo](https://arxiv.org/abs/2405.05949) is accepted by Neurips 2024.
+* \[2024.09\] [CuMo](https://arxiv.org/abs/2405.05949) is accepted by NeurIPS 2024.
 * \[2024.05\] [CuMo](https://arxiv.org/abs/2405.05949) is released with [codes](https://github.com/SHI-Labs/CuMo) and [models](https://huggingface.co/shi-labs/CuMo-mistral-7b).
 * \[2023.11\] [VIM](https://arxiv.org/abs/2311.04212) and [codes](https://github.com/SHI-Labs/VIM) are released
 * \[2023.10\] Two papers accepted by WACV 2024
